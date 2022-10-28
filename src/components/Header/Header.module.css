@@ -1,0 +1,22 @@
+.header {
+  /* position: fixed;
+  left: 15.2%;
+  top: 0;
+  height: 60px;
+  grid-area: header; */
+  position: fixed;
+  left: 15.2%;
+  top: 0;
+  height: 60px;
+  width: 1000px;
+  background-color: var(--color-grey-darker);
+  grid-area: header;
+}
+
+.header__wrapper {
+  padding: 5px 20px 5px 20px;
+}
+
+.header img {
+  width: 45px;
+}

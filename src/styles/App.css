@@ -1,0 +1,49 @@
+@import url('reset.css');
+@import url('variables.css');
+
+html {
+  height: 100%;
+}
+
+/* .wrapper {
+  min-height: 100%;
+  display: grid;
+  grid-template-areas: 
+  'header header' 
+  'nav content'
+  '. footer';
+  grid-template-rows: 60px 1fr 40px;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+  width: 1000px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2rem;
+} */
+
+.wrapper {
+  min-height: 100%;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-rows: 60px 1fr 40px;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+  width: 1000px;
+  grid-template-areas:
+    "header header"
+    "nav content"
+    ". footer";
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2rem;
+}
+
+.content-wrapper {
+  grid-area: content;
+  width: 100%;
+}

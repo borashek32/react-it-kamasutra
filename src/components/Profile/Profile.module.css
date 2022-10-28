@@ -1,0 +1,10 @@
+.content__img {
+  width: 10fr;
+  height: 200px;
+}
+
+.content__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
